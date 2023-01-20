@@ -91,7 +91,7 @@ const handleSubmit = async (e) => {
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${OPENAI_API_KEY}`
+            'Authorization': `Bearer ${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}`
           },
         body: JSON.stringify({
             prompt: data.get('prompt')
