@@ -89,10 +89,8 @@ const handleSubmit = async (e) => {
     const response = await fetch('https://appv2.onrender.com', {
         method: 'POST',
         headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${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}`
-          },
+            'Content-Type': 'application/json'
+        },
         body: JSON.stringify({
             prompt: data.get('prompt')
         })
